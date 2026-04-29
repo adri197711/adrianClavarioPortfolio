@@ -1,109 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adrián Clavario Web</title>
-    <link rel="website icon" type="png" href="./assets/imgs/mundo.png">
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="https://kit.fontawesome.com/84ffb2d056.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio web de Adrián Clavario, desarrollador frontend." />
+  <meta name="author" content="Adrián Clavario" />
+  <meta name="keywords" content="frontend, HTML, CSS, desarrollo web, portfolio" />
 
+  <title>Adrián Clavario Web</title>
+  <link rel="icon" type="image/png" href="./assets/imgs/mundo.png" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="https://kit.fontawesome.com/84ffb2d056.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
 </head>
 
 <body>
+  <header>
+    <a href="#" class="logo">ADRIAN WEB</a>
 
-    <header>
-        <a href="#" class="logo">ADRIAN WEB</a>
+    <input type="checkbox" name="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon-action">
+      <i class="fa-solid fa-bars" id="menu-icon" aria-hidden="true"></i>
+    </label>
 
-        <input type="checkbox" name="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="menu-icon-action">
-            <div class='fa-solid fa-bars' id="menu-icon"></div>
-        </label>
+    <ul class="nav-bar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </header>
 
-        <ul class="nav-bar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#sobre-mi">Sobre mí</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </header>
-
-    <section class="hero" id="sobre-mi">
-        <div class="icons">
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-github"></i>
+  <main>
+    <section class="hero" id="home">
+   
+      <div class="hero-text">
+        <h1>Full Stack Web Developer</h1>
+        <h2>Adrián Clavario</h2>
+        <p>Desarrollo aplicaciones web modernas, escalables y centradas en el usuario.
+          Apasionado por la creación de interfaces intuitivas y funcionales.
+          <br />Convierto ideas en soluciones digitales creativas y eficientes.
+        </p>
+        <div class="tech-logos">
+          <img src="./assets/imgs/logosTecBlack.png" alt="Logos de tecnologías: HTML, CSS, JavaScript, etc."
+            width="70%" />
         </div>
+      </div>
 
-        <div class="hero-text">
-            <h5>Frontend Developer</h5>
-            <h4>HTML CSS</h4>
-            <h1>Adrián Web</h1>
-            <p>Soy un desarrollador dedicado a buscar las <br>
-                soluciones informáticas mas creativas para<br>
-                tu empresa, producto o servicio en la red</p>
-        </div>
-
-        <div class="hero-img">
-            <img src="../adrianClavario_tp08/assets/imgs/developer.png" alt="developer foto">
-        </div>
+      <div class="hero-img">
+        <img src="./assets/imgs/developer.png" alt="Ilustración de un desarrollador trabajando en su computadora" />
+      </div>
     </section>
 
-    <section id="portfolio">
-        <h3><i class="fa-solid fa-screwdriver-wrench tools"></i>
-            Mira mis proyectos</h3>
+    <section id="about" class="about-me">
+      <h2>Sobre Mí</h2>
+      <p>
 
-        <div class="proyectos">
-            <div class="div-proyectos">
-                <img src="./assets/imgs/logo-mercado-liebre.svg" alt="logo mercado liebre">
-            </div>
-            <div class="div-proyectos">
-                <img src="./assets/imgs/proyecto2.png" alt="proyecto html css">
-            </div>
-        </div>
+        Soy Full Stack Web Developer con formación en Digital House y Academia ForIT, especializado en el desarrollo de
+        aplicaciones web modernas, escalables y centradas en el usuario. Trabajo con tecnologías como JavaScript, React,
+        Node.js, Express y MySQL para construir soluciones completas, desde la interfaz hasta la lógica de negocio y la
+        base de datos.
 
-        <div class="proyectos2">
-            <div class="div-proyectos2">
-                <img src="./assets/imgs/logo-netflix.png" alt="logo mercado liebre">
-            </div>
-            <div class="div-proyectos2">
-                <img src="./assets/imgs/calculadora.webp" alt="proyecto html css">
-            </div>
-        </div>
+        Me apasiona crear experiencias digitales intuitivas, funcionales y de alta calidad, combinando pensamiento
+        analítico, buenas prácticas de desarrollo y una fuerte orientación a la calidad del código para transformar
+        ideas en productos digitales eficientes y escalables.
+
+        Además de mi experiencia técnica, he brindado acompañamiento a equipos y estudiantes en proyectos full stack,
+        realizando revisión de código, resolución de bloqueos técnicos y seguimiento de tareas bajo metodologías ágiles.
+        Busco seguir creciendo en entornos colaborativos, aportando valor tanto en el desarrollo como en la mejora
+        continua de los procesos.
+
+      </p>
+        <div class="social-icons">
+          <a href="https://instagram.com/tu_usuario" target="_blank" aria-label="Visita mi Instagram">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/clavario-adrian" target="_blank" aria-label="Visita mi perfil de LinkedIn">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/adri197711" target="_blank" aria-label="Visita mi GitHub">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+          </a>
+        </div> 
+
     </section>
 
-    <div class="contacto">
-        <form action="" id="contacto">
-            <h4>Envia tu mensaje</h4>
+    <section id="portfolio" class="portfolio-section">
+      <h2><i class="fa-solid fa-screwdriver-wrench tools" aria-hidden="true"></i> Mis Proyectos</h2>
 
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+      <div class="projects-grid">
 
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Email">
+        <!-- Proyecto 1: Music Place -->
+        <div class="project-card">
+          <img src="./assets/imgs/logo_music_place.png" alt="Logo del proyecto Music Place" />
+          <div class="project-info">
+            <h3>Music Place E-commerce</h3>
+            <p>
+              Plataforma de venta de instrumentos musicales con carrito de compras y catálogo de productos.
+            </p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/adri197711/adrianClavario_Music_Place" target="_blank" class="project-button">
+                <i class="fa-brands fa-github"></i> Código
+              </a>
+              <a href="#" target="_blank" class="project-button">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div>
 
-            <label for="Telefono">Teléfono</label>
-            <input type="tel" name="telefono" id="telefono" placeholder="Escribe tu teléfono">
-            <label for="mensaje">Mensaje</label>
-            <textarea name="mensaje" id="mensaje" placeholder="Deja tu mensaje"></textarea>
-            <input class="boton-submit" type="submit" value="Enviar">
-        </form>
-    </div>
+        <!-- Proyecto 2: Clon de Netflix -->
+        <div class="project-card">
+          <img src="./assets/imgs/tiendaOnline.png" alt="Interfaz tienda Tienda-Online" />
+          <div class="project-info">
+            <h3>Tecno Pulse - Tienda Online</h3>
+            <p>
+              Tecno Pulse es una plataforma moderna e intuitiva, diseñada para ofrecer una experiencia de compra ágil, visual y centrada en el usuario.
 
-    <div class="scroll-down">
-        <a href="#contacto"><i class="fa-solid fa-arrow-down"></i></a>
-    </div>
+            </p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
 
-    <footer class="footer">
-        <p>&copy;2024 - Desarrollado por Adrián Clavario</p>
-    </footer>
+            </div>
+            <div class="project-links">
+              <a href="https://adri197711.github.io/Tienda-Online/" target="_blank" class="project-button">
+                <i class="fa-brands fa-github"></i> Código
+              </a>
+              <a href="#" target="_blank" class="project-button">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div>
 
+        <!-- Proyecto 3: Calculadora 
+        <div class="project-card">
+          <img src="./assets/imgs/calculadora.webp" alt="Calculadora funcional" />
+          <div class="project-info">
+            <h3>Calculadora Funcional</h3>
+            <p>
+              Calculadora interactiva construida con JavaScript puro para manejar la lógica de las operaciones
+              matemáticas.
+            </p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" class="project-button">
+                <i class="fa-brands fa-github"></i> Código
+              </a>
+              <a href="#" target="_blank" class="project-button">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <form action="https://formsubmit.co/adrianclavario@gmail.com" method="POST">
+        <h5>Envíame un mensaje</h5>
+
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email" required />
+
+        <label for="telefono">Teléfono (Opcional)</label>
+        <input type="tel" name="telefono" id="telefono" placeholder="Escribe tu teléfono" />
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" placeholder="Deja tu mensaje" required></textarea>
+
+        <button class="boton-submit" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy;2026 - Desarrollado por Adrián Clavario</p>
+  </footer>
+</body>
 </body>
 
 </html>
