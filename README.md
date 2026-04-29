@@ -4,7 +4,7 @@ Portfolio profesional desarrollado para mostrar mis proyectos, habilidades y exp
 
 ## 🚀 Demo en vivo
 
-🔗 [https://adri197711.github.io/adrianClavarioPortfolio/](https://adri197711.github.io/adrianClavarioPortfolio/)
+🔗 https://adri197711.github.io/adrianClavarioPortfolio/
 
 ## 📋 Descripción
 
@@ -65,9 +65,9 @@ Este proyecto está desplegado en GitHub Pages. Cada cambio enviado a la rama `m
 
 **Adrian Clavario**
 
-* GitHub: [https://github.com/adri197711](https://github.com/adri197711)
-* LinkedIn: Agrega aquí tu perfil de LinkedIn
-* Email: Agrega aquí tu email profesional
+* GitHub: https://github.com/adri197711
+* LinkedIn: https://linkedin.com/in/clavario-adrian
+* Email: adrianclavario@gmail.com
 
 ## 📄 Licencia
 
